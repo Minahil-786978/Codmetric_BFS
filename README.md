@@ -22,20 +22,20 @@ The program:
 
 BFS Algorithm
 
--A queue is used to explore cells layer by layer.
--Each step moves up, down, left, right (no diagonals).
--Stops when the end is reached.
+-  A queue is used to explore cells layer by layer.
+-  Each step moves up, down, left, right (no diagonals).
+-  Stops when the end is reached.
 
 Path Tracking
 
--Each position stores the path taken so far.
--Once the end is found, the path is returned.
+-  Each position stores the path taken so far.
+-  Once the end is found, the path is returned.
 
 Display
--Console display: * marks the shortest path
+-  Console display: * marks the shortest path
 
 Visual display:
 
--White = open path
--Black = wall
--Red = shortest path
+-  White = open path
+-  Black = wall
+-  Red = shortest path
